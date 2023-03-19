@@ -1,0 +1,10 @@
+ 9975  2023-03-19 04:09.42 | dart -h
+ 9976  2023-03-19 04:10.22 | dart compile main.dart 
+ 9977  2023-03-19 04:10.52 | dart compile exe main.dart 
+ 9978  2023-03-19 04:11.06 | ./main.exe 
+ 9979  2023-03-19 04:11.14 | file main.exe 
+ 9980  2023-03-19 04:11.52 | dart compile js main.dart 
+ 9981  2023-03-19 04:12.07 | vi out.js
+ 9982  2023-03-19 04:12.43 | node out.js
+ 9983  2023-03-19 04:12.56 | history | tail
+ 9984  2023-03-19 04:13.12 | history | tail > hh
